@@ -1,0 +1,52 @@
+.bg-1 {
+  font: 400 13px/1.8 Lato, sans-serif;
+  background-color: #f4f3ee;
+  color: #8a817c;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+.category:hover {
+  border: 2px solid transparent;
+  border-color: #f4f3ee;
+}
+
+.nav-tabs li a {
+  color: #8a817c;
+}
+
+body p {
+  padding: 0;
+  margin: 0;
+  color: #463f3a;
+
+}
+
+body span {
+  color: #8a817c;
+
+}
+
+
+a+div {
+  display: none;
+}
+
+a:hover+div {
+  display: block;
+}
+
+
+
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover,
+.btn:focus {
+  font: 400 12px/1.8 Lato, sans-serif;
+  border: 1px solid #8a817c;
+  background-color: #463f3a;
+  color: #f4f3ee;
+}
